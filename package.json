@@ -18,7 +18,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/n4kz/react-native-material-dropdown.git"
+    "url": "git://github.com/demedos/react-native-material-dropdown.git"
   },
   "peerDependencies": {
     "react": "*",
