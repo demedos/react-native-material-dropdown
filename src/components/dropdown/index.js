@@ -144,13 +144,13 @@ export default class Dropdown extends PureComponent {
     };
   }
 
-  componentWillReceiveProps({ value }) {
+  UNSAFE_componentWillReceiveProps({ value }) {
     if (value !== this.state.value) {
       this.setState({ value });
     }
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const handler = (e) => {
       if (this.state.modal) {
         this.onPress(null);
